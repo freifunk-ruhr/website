@@ -1,12 +1,11 @@
 FROM node:latest AS build
 
-ENV NODE_ENV=production
-
 WORKDIR /app
 COPY . /app
 
 RUN npm install
 
+ENV NODE_ENV=production
 RUN npx sapper export
 
 
