@@ -1,0 +1,8 @@
+{
+    email domain@schischkin.info
+}
+ffruhr.net {
+    tls domain@schischkin.info
+	root * /app
+	file_server
+}

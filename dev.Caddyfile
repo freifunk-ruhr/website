@@ -1,0 +1,9 @@
+{
+    debug
+    email domain@schischkin.info
+}
+localhost {
+    tls internal
+    root * /app
+	file_server
+}
