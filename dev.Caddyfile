@@ -2,8 +2,8 @@
     debug
     email domain@schischkin.info
 }
-localhost {
-    tls internal
-    root * /app
+localhost web {
+  tls internal
+  root * /app
 	file_server
 }
