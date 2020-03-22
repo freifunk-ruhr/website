@@ -1,6 +1,7 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "FFRuhr",
+  "description": "ffruhr.net website",
+  "license": "MIT",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",

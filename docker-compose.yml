@@ -1,0 +1,11 @@
+version: "3"
+services:
+  web:
+    image: docker.pkg.github.com/freifunk-ruhr/website/sapper
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports: 
+      - 443
+      - 80
