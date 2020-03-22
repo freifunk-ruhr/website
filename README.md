@@ -1,4 +1,4 @@
-# boilerplate
+# FF-Ruhr Website
 The Freifunk-Ruhr Boilerplate for our Open-Source projects.
 
 ## Index
