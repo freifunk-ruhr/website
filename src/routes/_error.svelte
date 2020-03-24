@@ -1,40 +1,18 @@
 <script>
 	export let status;
 	export let error;
-
 	const dev = process.env.NODE_ENV === 'development';
 </script>
 
-<style>
-	h1, p {
-		margin: 0 auto;
-	}
-
-	h1 {
-		font-size: 2.8em;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
-</style>
-
 <svelte:head>
-	<title>{status}</title>
+	<title>Freifunk Ruhr - {status}</title>
 </svelte:head>
-
-<h1>{status}</h1>
-
-<p>{error.message}</p>
-
+<div class="px-6 py-4">
+<div class="font-bold text-4xl mb-2 text-center">{status}</div>
+<p class="text-gray-700 text-center">
+    {error.message}
+</p>
 {#if dev && error.stack}
 	<pre>{error.stack}</pre>
 {/if}
+</div>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.2" width="170px" xmlns="http://www.w3.org/2000/svg" height="160px">
+<!-- Designed by Monic Meisel and hand-coded as SVG by Alina Friedrichsen -->
+
+
+
+<g>
+	<circle cx="36" cy="54" r="22" transform="matrix(1.477616,0,0,1.5065066,-3.122124,-2.4350016)" fill="none" stroke="#de2c68" stroke-width="1.14544892" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none"/>
+	<circle cx="74" cy="44" r="22" transform="matrix(1.5950476,0,0,1.6223254,-10.072136,-9.1778182)" fill="none" stroke="#de2c68" stroke-width="1.06239557" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none"/>
+	<circle cx="74" cy="44" r="29" transform="matrix(1.5831269,0,0,1.5986441,-9.3397104,-8.1360194)" fill="none" stroke="#de2c68" stroke-width="5.81192684" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none"/>
+	<polygon points="31,44 26,44 30,48 22,48 22,52 30,52 26,56 31,56 37,50 " transform="matrix(1.4493674,0,0,1.3737988,-2.70016,2.5042672)" fill="#ffcc33" fill-opacity="1"/>
+	<polygon points="81,59 75,53 88,53 88,47 75,47 81,41 73,41 64,50 73,59 " transform="matrix(1.5159598,0,0,1.568926,-5.2784314,-7.233634)" fill="#ffcc33" fill-opacity="1"/>
+</g>
+
+
+
+</svg>
