@@ -6,7 +6,7 @@ COPY . /app
 RUN npm install
 
 ENV NODE_ENV=production
-RUN npx sapper export
+RUN npm run build
 
 
 FROM caddy/caddy:latest
