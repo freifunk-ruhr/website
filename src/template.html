@@ -1,17 +1,30 @@
-<!doctype html>
-<html lang='de' class="antialiased leading-tight">
-<head>
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width,initial-scale=1.0'>
-	<meta name='theme-color' content='#dc0067'>
-	%sapper.base%
-	<link rel='manifest' href='manifest.json' crossorigin='use-credentials'>
-	<link rel='stylesheet' type='text/css' href='index.css'>
-	%sapper.styles%
-	%sapper.head%
-</head>
-<body>
-	<div id='sapper'>%sapper.html%</div>
-	%sapper.scripts%
-</body>
+<!DOCTYPE html>
+<html lang="de" class="antialiased leading-tight">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<meta name="theme-color" content="#dc0067" />
+		%sapper.base%
+		<link rel="manifest" href="manifest.json" crossorigin="use-credentials" />
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		%sapper.styles% %sapper.head%
+	</head>
+	<body>
+		<script type="application/ld+json">
+			{
+				"@context": "http://schema.org",
+				"@type": "Organization",
+				"name": "Freifunk Ruhr",
+				"email": "contact@ffruhr.net",
+				"memberOf": {
+					"@type": "Organization",
+					"name": "Freie Netzwerke e.V."
+					"url": "https://freifunk.net"
+				},
+				"url": "https://ffruhr.net"
+			}
+		</script>
+		<div id="sapper">%sapper.html%</div>
+		%sapper.scripts%
+	</body>
 </html>

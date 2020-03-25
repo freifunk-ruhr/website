@@ -23,7 +23,7 @@
 	];
 </script>
 
-<nav class="flex items-center justify-between flex-wrap bg-primary p-6">
+<nav class="flex items-center justify-between flex-wrap bg-primary p-6 mb-2">
   <div class="flex items-center flex-shrink-0 text-white mr-6">
     <span class="font-semibold text-xl tracking-tight">Freifunk Ruhr</span>
   </div>
